@@ -1,0 +1,39 @@
+<h2 [align]="'center'">Contact Information</h2>
+<h3 [align]="'center'">Please fill out your contact information below</h3>
+
+<!-- <img src="stockformimage.jpg" alt="form filling on laptop"> -->
+    <span class="border border-secondary">
+<!--Name  -->
+    <form class="row g-2">
+        <div class="input-group">
+            <span class="input-group-text">Name*</span>
+            <input type="text" aria-label="First name" class="form-control" required>
+            <input type="text" aria-label="Last name" class="form-control">
+          </div>         
+          
+<!-- Email -->
+ <div></div>
+ <div></div>
+ <div class="form-floating mb-3">
+    <input type="email" class="form-control" id="floatingInput" placeholder="" required>
+    <label for="floatingInput">Email*</label>
+  </div>
+  
+<!-- Address  -->
+<div class="form-floating mb-3">
+    <input type="text" class="form-control" id="floatingInput" placeholder="" required>
+    <label for="floatingInput">Address*</label>
+  </div>
+
+<!-- Phone  -->
+<div class="form-floating mb-3">
+    <input type="number" class="form-control" id="floatingInput" placeholder="" required>
+    <label for="floatingInput">Phone*</label>
+  </div>
+
+<!-- submit button -->
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+</span>
